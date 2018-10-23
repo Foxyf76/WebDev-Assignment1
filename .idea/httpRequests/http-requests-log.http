@@ -1,0 +1,470 @@
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T104824.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T104728-1.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T104728.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T104727.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T104726.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103919.200.json
+
+###
+
+GET http://localhost:3000/producs/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103915.404.html
+
+###
+
+GET http://localhost:3000/product/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/producs/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103907.404.html
+
+###
+
+GET http://localhost:3000/product/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103408.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103345-1.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103345.200.json
+
+###
+
+GET http://localhost:3000/products/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103032.200.json
+
+###
+
+GET http://localhost:3000/products/5bc0feece7179a4377f7f5ad
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T103022.200.json
+
+###
+
+GET http://localhost:3000/products/5bc0feece7179a4377f7f5ad
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T102754.200.json
+
+###
+
+GET http://localhost:3000/products/lg
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-23T102740.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T032334.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T032324.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T032323.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T032321.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T023339.404.html
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T023337.404.html
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T023047.404.html
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T023046.404.html
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T022605.404.html
+
+###
+
+GET http://localhost:3000/products/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T022536.200.json
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T022452.404.html
+
+###
+
+GET http://localhost:3000/fuzzy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"productname": "Samsung"}
+
+<> 2018-10-21T022451.404.html
+
+###
+
