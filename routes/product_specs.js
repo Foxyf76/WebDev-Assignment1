@@ -3,7 +3,7 @@ let Product = require('../models/products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
-var mongodbUri = 'mongodb://Foxyf76:vzT8F2xNvtmL359@ds131373.mlab.com:31373/productsdb';
+var mongodbUri = 'mongodb://<name>:<password>@ds131373.mlab.com:31373/productsdb';
 
 mongoose.connect(mongodbUri);
 
