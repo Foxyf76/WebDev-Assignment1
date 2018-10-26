@@ -1,9 +1,13 @@
-var express = require('express');
-var router = express.Router();
+let mongoose = require('mongoose');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+let ProductSpecsSchema = new mongoose.Schema({
+        productname: String,
+        cameraquality: Number,
+        ram: Number,
+        processor: String,
+        screensize: Number,
+        batterysize: Number
+    },
+    {collection: 'specs'});
 
-module.exports = router;
+module.exports = mongoose.model('ProductSpecs', ProductSpecsSchema);

@@ -1,9 +1,9 @@
-let ProductSpecs = require('../models/product_specs');
+
 let Product = require('../models/products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
-var mongodbUri = 'mongodb://<name>:<password>@ds131373.mlab.com:31373/productsdb';
+var mongodbUri = 'mongodb://Foxyf76:vzT8F2xNvtmL359@ds131373.mlab.com:31373/productsdb';
 
 mongoose.connect(mongodbUri);
 
@@ -24,19 +24,10 @@ router.findAll = (req, res) => {
     Product.find(function (err, products) {
         if (err)
             res.send(err);
+
         res.send(JSON.stringify(products, null, 5));
     });
 };
-
-router.findProductSpecs = (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
-    Product.findOne({"productname": req.params.productname}, (function (err, result) {
-        if (err)
-            res.send(err);
-        console.log(result)
-    }))
-};
-
 
 router.findOne = (req, res) => {
 
@@ -52,6 +43,7 @@ router.findOne = (req, res) => {
         // return the donation
     });
 };
+
 
 function getByValue(array, id) {
     var result = array.filter(function (obj) {
@@ -93,6 +85,8 @@ router.addProduct = (req, res) => {
     });
 }
 
+
+
 router.incrementUpvotes = (req, res) => {
     // Find the relevant donation based on params id passed in
     // Add 1 to upvotes property of the selected donation based on its id
@@ -109,25 +103,20 @@ router.incrementUpvotes = (req, res) => {
 
 router.findFuzzy = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
-    Product.find(function (err, products) {
-        if (err)
-            res.send(err);
-
-        var products = JSON.stringify(products, null, 55);
-        var product = fuzzySearch(products, req.params.productname);
-        res.json({product})
-    });
+    //var name = req.params.productname;
+    console.log("calling find fuzzy")
+    // Product.find(function (err, products) {
+    //         if (err)
+    //             res.send(err);
+    //         for (let i = 0; i < products.length; i++) {
+    //             if (products[i].includes(name))
+    //                 console.log(products[i]);
+    //             else
+    //                 console.log("Not found: " + name)
+    //         }
+    //     }
+    // );
 };
-
-function fuzzySearch(array, name) {
-    var result = array.filter(function (obj) {
-        if (obj.contains(name)) {
-            return obj
-        }
-    });
-    return result ? result[0] : null; // or undefined
-}
 
 
 router.incrementUpvotes = (req, res) => {
@@ -165,7 +154,15 @@ router.findTotalVotes = (req, res) => {
         else
             res.json({totalvotes: getTotalVotes(products)});
     });
+};
 
-}
+router.findProductSpecs = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    Product.findOne({"productname": req.params.productname}, (function (err, result) {
+        if (err)
+            res.send(err);
+        console.log(result)
+    }))
+};
 
 module.exports = router;

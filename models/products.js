@@ -5,7 +5,9 @@ let ProductSchema = new mongoose.Schema({
         producttype: String,
         price: Number,
         rating: Number,
-        upvotes: {type: Number, default: 0}
+        upvotes: {type: Number, default: 0},
+        specs: [{ type: mongoose.Schema.Types.ObjectId, ref: 'ProductSpecs' }]
+
     },
     { collection: 'productsdb' });
 
