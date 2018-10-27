@@ -1,9 +1,9 @@
-
+let fuzzy = require("fuse.js"); // used fuse.js library for fuzzy search
 let Product = require('../models/products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
-var mongodbUri = 'mongodb://######@ds131373.mlab.com:31373/productsdb';
+var mongodbUri = 'mongodb://Foxyf76:vzT8F2xNvtmL359@ds131373.mlab.com:31373/productsdb';
 
 mongoose.connect(mongodbUri);
 
@@ -44,22 +44,6 @@ router.findOne = (req, res) => {
     });
 };
 
-
-function getByValue(array, id) {
-    var result = array.filter(function (obj) {
-        return obj.id == id;
-    });
-    return result ? result[0] : null; // or undefined
-}
-
-function getTotalVotes(array) {
-    let totalVotes = 0;
-    array.forEach(function (obj) {
-        totalVotes += obj.upvotes;
-    });
-    return totalVotes;
-}
-
 router.addProduct = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
@@ -71,7 +55,6 @@ router.addProduct = (req, res) => {
     product.price = req.body.price;
     product.rating = req.body.rating;
     product.upvotes = req.body.upvotes;
-
 
     product.save(function (err) {
         if (err) {
@@ -85,11 +68,33 @@ router.addProduct = (req, res) => {
     });
 }
 
+router.addSpecs = (req, res) => {
+    Product.findByIdAndUpdate(req.params.id, {
+            $push: {
+                specs: {
+                    cameraquality: req.body.cameraquality,
+                    ram: req.body.ram,
+                    processor: req.body.processor,
+                    screensize: req.body.screensize,
+                    batterysize: req.body.batterysize,
+                    id: req.params.id,
+                }
+            }
+        },
+        function (err, products) {
+            if (err) {
+                throw err;
+            }
+            else {
+                res.send(products)
+            }
+        }
+    )
+};
 
 
 router.incrementUpvotes = (req, res) => {
-    // Find the relevant donation based on params id passed in
-    // Add 1 to upvotes property of the selected donation based on its id
+
     var product = getByValue(products, req.params.id);
 
     if (product != null) {
@@ -101,27 +106,21 @@ router.incrementUpvotes = (req, res) => {
 
 }
 
-router.findFuzzy = (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
-    var name = req.params.productname;
-    console.log("calling find fuzzy");
+router.findFuzzyName = (req, res) => {
     Product.find(function (err, products) {
-            if (err)
-                res.send(err);
-            for (let i = 0; i < products.length; i++) {
-                console.log(name)
-                if (products.indexOf(name) > -1)
-                    console.log("Found");
-                else
-                    console.log("Not found");
-            }
-        }
-    );
+        if (err)
+            res.send(err);
+        var options = {
+            keys: ['productname'],
+        };
+        var fuse = new fuzzy(products, options);
+        var result = fuse.search(req.params.productname);
+        res.send(result)
+
+    })
 };
 
-
 router.incrementUpvotes = (req, res) => {
-
     Product.findById(req.params.id, function (err, product) {
         if (err)
             res.json({message: 'Product NOT Found!', errmsg: err});
@@ -138,7 +137,6 @@ router.incrementUpvotes = (req, res) => {
 };
 
 router.deleteProduct = (req, res) => {
-
     Product.findByIdAndRemove(req.params.id, function (err) {
         if (err)
             res.json({message: 'Product NOT DELETED!', errmsg: err});
@@ -148,7 +146,6 @@ router.deleteProduct = (req, res) => {
 }
 
 router.findTotalVotes = (req, res) => {
-
     Product.find(function (err, products) {
         if (err)
             res.send(err);
@@ -157,7 +154,7 @@ router.findTotalVotes = (req, res) => {
     });
 };
 
-router.findProductSpecs = (req, res) => {
+router.findProductByName = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     Product.find({"productname": req.params.productname}, (function (err, products) {
         if (err)
@@ -165,5 +162,21 @@ router.findProductSpecs = (req, res) => {
         res.send((JSON.stringify(products, null, 5)))
     }))
 };
+
+function getByValue(array, id) {
+    var result = array.filter(function (obj) {
+        return obj.id == id;
+    });
+    return result ? result[0] : null; // or undefined
+}
+
+function getTotalVotes(array) {
+    let totalVotes = 0;
+    array.forEach(function (obj) {
+        totalVotes += obj.upvotes;
+    });
+    return totalVotes;
+}
+
 
 module.exports = router;

@@ -1,0 +1,30 @@
+{
+  "message": "Product NOT UpVoted!",
+  "errmsg": {
+    "errors": {
+      "specs": {
+        "message": "Cast to Array failed for value \"16\" at path \"specs\"",
+        "name": "CastError",
+        "stringValue": "\"16\"",
+        "kind": "Array",
+        "value": 16,
+        "path": "specs",
+        "reason": {
+          "message": "Cast to embedded failed for value \"16\" at path \"specs\"",
+          "name": "CastError",
+          "stringValue": "\"16\"",
+          "kind": "embedded",
+          "value": "16",
+          "path": "specs",
+          "reason": {
+            "message": "Parameter \"obj\" to Document() must be an object, got 16",
+            "name": "ObjectParameterError"
+          }
+        }
+      }
+    },
+    "_message": "Product validation failed",
+    "message": "Product validation failed: specs: Cast to Array failed for value \"16\" at path \"specs\"",
+    "name": "ValidationError"
+  }
+}

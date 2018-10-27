@@ -8,8 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const products = require("./routes/products");
-const productspecs = require("./routes/product_specs");
-const usersproducts = require("./routes/users_products");
+const useraccounts = require("./routes/user_accounts");
 
 var app = express();
 
@@ -29,19 +28,17 @@ app.use('/users', usersRouter);
 app.get('/products', products.findAll);
 app.get('/products/votes', products.findTotalVotes);
 app.get('/products/:id', products.findOne);
-app.get('/products/getByName/:productname/', products.findProductSpecs); // not working
-app.get('/fuzzy/:productname', products.findFuzzy);
+app.get('/products/getByName/:productname', products.findProductByName); // not working
+app.get('/fuzzy/:productname', products.findFuzzyName);
+app.get('/useraccounts', useraccounts.findAll);
 
-app.get('/productspecs', productspecs.findAll);
-
-app.get('/users', usersproducts.findAll);
 
 app.post('/products',products.addProduct);
-app.post('/productspecsadd',productspecs.addSpecs);
-app.post('/useradd', usersproducts.addUsers);
-
+app.post('/products/:id/addSpecs',products.addSpecs);
+app.post('/useraccounts/addUser', useraccounts.addUser);
 
 app.put('/products/:id/vote', products.incrementUpvotes);
+app.put('/useraccounts/:username/', useraccounts.changeUsername);
 
 app.delete('/products/:id', products.deleteProduct);
 

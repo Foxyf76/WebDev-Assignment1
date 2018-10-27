@@ -1,9 +1,75 @@
-GET http://localhost:3000/fuzzy/LGV30
+PUT http://localhost:3000/useraccounts/Fox/
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "newname": "Foxy" }
+
+<> 2018-10-27T112918.200.json
+
+###
+
+PUT http://localhost:3000/useraccounts/fox/foxy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T112632.200.json
+
+###
+
+PUT http://localhost:3000/useraccounts/fox/foxy
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T112545.404.html
+
+###
+
+GET http://localhost:3000/fuzzy/dd
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T110824.200.json
+
+###
+
+GET http://localhost:3000/fuzzy/L
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T110820.200.json
+
+###
+
+GET http://localhost:3000/fuzzy/LG
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T110813.200.json
+
+###
+
+GET http://localhost:3000/fuzzy/LG
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
@@ -12,9 +78,7 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
-
-<> 2018-10-26T014505.200.json
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
@@ -23,9 +87,7 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
-
-<> 2018-10-26T014428.200.json
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
@@ -34,7 +96,7 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
@@ -43,350 +105,353 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
-GET http://localhost:3000/fuzzy/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T084337.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T084136.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/LG30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T083931.200.json
 
 ###
 
-GET http://localhost:3000/products/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T083704.200.json
 
 ###
 
-GET http://localhost:3000/products/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
-GET http://localhost:3000/product/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T083432.200.html
 
 ###
 
-GET http://localhost:3000/product/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T083334.200.json
 
 ###
 
-GET http://localhost:3000/products/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T011134.404.html
+<> 2018-10-27T083026.200.json
 
 ###
 
-GET http://localhost:3000/products
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
-
-<> 2018-10-26T011119.200.json
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
-GET http://localhost:3000/productsspecs/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T011033.404.html
+<> 2018-10-27T082941.200.json
 
 ###
 
-GET http://localhost:3000/products/getByName/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010837.404.html
+<> 2018-10-27T082829.200.json
 
 ###
 
-GET http://localhost:3000/products/findProductSpecs/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010704.404.html
+<> 2018-10-27T082305.200.json
 
 ###
 
-GET http://localhost:3000/products/waa
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010505.200.json
+<> 2018-10-27T082154.200.json
 
 ###
 
-GET http://localhost:3000/products/5bc0feece7179a4377f7f5ad
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
-
-<> 2018-10-26T010336.200.json
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 ###
 
-GET http://localhost:3000/products/
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010327.200.json
+<> 2018-10-27T081830.200.html
 
 ###
 
-GET http://localhost:3000/products/productname
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010322.200.json
+<> 2018-10-27T081829.200.html
 
 ###
 
-GET http://localhost:3000/products/
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010315.200.json
+<> 2018-10-27T081555.200.html
 
 ###
 
-GET http://localhost:3000/products/LGV30
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T010044.200.json
+<> 2018-10-27T081553.200.html
 
 ###
 
-GET http://localhost:3000/users
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T124552.200.html
+<> 2018-10-27T081404.200.html
 
 ###
 
-POST  http://localhost:3000/useradd
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T124530.404.html
+<> 2018-10-27T081255.200.html
 
 ###
 
-POST  http://localhost:3000/useradd/
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T124524.404.html
+<> 2018-10-27T081250.200.html
 
 ###
 
-POST  http://localhost:3000/useradd/
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T124523.404.html
+<> 2018-10-27T081249.200.html
 
 ###
 
-POST  http://localhost:3000/useradd
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T124020.404.html
+<> 2018-10-27T081248.200.html
 
 ###
 
-GET http://localhost:3000/users
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T081247.200.html
 
 ###
 
-GET http://localhost:3000/users
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-26T113417.200.html
+<> 2018-10-27T081246.200.html
 
 ###
 
-GET http://localhost:3000/fuzzy/lg
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T081149.200.html
 
 ###
 
-GET http://localhost:3000/fuzzy/lg
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
+
+<> 2018-10-27T080808.200.html
 
 ###
 
-GET http://localhost:3000/productspecs
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-24T125353.200.json
+<> 2018-10-27T080721.200.html
 
 ###
 
-GET http://localhost:3000/productspecs
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-24T125118.500.json
+<> 2018-10-27T080535.500.html
 
 ###
 
-GET http://localhost:3000/productspecs
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-24T125009.500.json
+<> 2018-10-27T080448.500.html
 
 ###
 
-POST http://localhost:3000/productspecsadd
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-24T124828.200.json
+<> 2018-10-27T080432.500.html
 
 ###
 
-POST http://localhost:3000/productspecsadd
+POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
-<> 2018-10-24T124625.200.json
-
-###
-
-POST http://localhost:3000/productspecsadd
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
-
-<> 2018-10-24T124459.404.html
+<> 2018-10-27T080401.500.html
 
 ###
 
@@ -395,110 +460,75 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{   "productname": "SamsungS9",   "producttype": "phone",   "price": 900,   "rating": 4,   "upvotes": 3 }
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
 
-<> 2018-10-24T122659.200.json
+<> 2018-10-27T074419.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
+
+<> 2018-10-27T072854.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
 
-<> 2018-10-24T115826.404.html
+<> 2018-10-27T072818.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/lg
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
+
+<> 2018-10-27T072752.200.json
 
 ###
 
-GET http://localhost:3000/products
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
+
+<> 2018-10-27T072730.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/lg
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
+
+<> 2018-10-27T072715.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy/lg
+POST http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
 
-###
-
-GET http://localhost:3000/fuzzy/lg
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy/lg
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy/lg
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy/lg
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy/lg
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
+<> 2018-10-27T072652.200.json
 
 ###
 

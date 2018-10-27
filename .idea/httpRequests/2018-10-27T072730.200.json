@@ -1,0 +1,12 @@
+{
+  "message": "Product Successfully Added!",
+  "data": {
+    "upvotes": 3,
+    "_id": "5bd4ae12a6531f52e8a2ff8a",
+    "productname": "LGV30",
+    "producttype": "phone",
+    "price": 1000,
+    "rating": 5,
+    "__v": 0
+  }
+}

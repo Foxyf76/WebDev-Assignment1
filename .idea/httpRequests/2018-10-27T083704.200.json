@@ -1,0 +1,26 @@
+{
+  "upvotes": 3,
+  "_id": "5bd4b5e6e7179a1b53fe7c37",
+  "productname": "LGV30",
+  "producttype": "phone",
+  "price": 900,
+  "rating": 4,
+  "specs": [
+    {
+      "cameraquality": 16,
+      "ram": 6,
+      "processor": "SnapDragon",
+      "screensize": 5.5,
+      "batterysize": 3200,
+      "_id": "5bd4bdc8e1b4e4c55cd5c077"
+    },
+    {
+      "cameraquality": 16,
+      "ram": 6,
+      "processor": "SnapDragon",
+      "screensize": 5.5,
+      "batterysize": 3200,
+      "_id": "5bd4be21452ab905004ecfcf"
+    }
+  ]
+}

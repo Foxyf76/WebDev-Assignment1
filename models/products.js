@@ -6,9 +6,18 @@ let ProductSchema = new mongoose.Schema({
         price: Number,
         rating: Number,
         upvotes: {type: Number, default: 0},
-        specs: [{ type: mongoose.Schema.Types.ObjectId, ref: 'ProductSpecs' }]
+        specs: [
+            {
+                cameraquality: {type: Number, default: 0},
+                ram: {type: Number, default: 0},
+                processor: {type: String, default: "none"},
+                screensize: {type: Number, default: 0},
+                batterysize: {type: Number, default: 0},
+                _id: { _id : false },
+            }
+        ]
 
     },
-    { collection: 'productsdb' });
+    {collection: 'productsdb'});
 
 module.exports = mongoose.model('Product', ProductSchema);
