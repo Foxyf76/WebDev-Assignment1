@@ -1,0 +1,11 @@
+{
+  "message": "Product Successfully Upvoted!",
+  "data": {
+    "upvotes": 3,
+    "_id": "5bb4bef98847d78fdb02051b",
+    "id": 1,
+    "productType": "Phone",
+    "price": 500,
+    "rating": 4
+  }
+}

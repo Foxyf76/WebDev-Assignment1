@@ -103,19 +103,20 @@ router.incrementUpvotes = (req, res) => {
 
 router.findFuzzy = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-    //var name = req.params.productname;
-    console.log("calling find fuzzy")
-    // Product.find(function (err, products) {
-    //         if (err)
-    //             res.send(err);
-    //         for (let i = 0; i < products.length; i++) {
-    //             if (products[i].includes(name))
-    //                 console.log(products[i]);
-    //             else
-    //                 console.log("Not found: " + name)
-    //         }
-    //     }
-    // );
+    var name = req.params.productname;
+    console.log("calling find fuzzy");
+    Product.find(function (err, products) {
+            if (err)
+                res.send(err);
+            for (let i = 0; i < products.length; i++) {
+                console.log(name)
+                if (products.indexOf(name) > -1)
+                    console.log("Found");
+                else
+                    console.log("Not found");
+            }
+        }
+    );
 };
 
 
@@ -134,7 +135,7 @@ router.incrementUpvotes = (req, res) => {
             });
         }
     });
-}
+};
 
 router.deleteProduct = (req, res) => {
 
@@ -158,10 +159,10 @@ router.findTotalVotes = (req, res) => {
 
 router.findProductSpecs = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-    Product.findOne({"productname": req.params.productname}, (function (err, result) {
+    Product.find({"productname": req.params.productname}, (function (err, products) {
         if (err)
             res.send(err);
-        console.log(result)
+        res.send((JSON.stringify(products, null, 5)))
     }))
 };
 

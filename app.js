@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 
 const products = require("./routes/products");
 const productspecs = require("./routes/product_specs");
+const usersproducts = require("./routes/users_products");
 
 var app = express();
 
@@ -28,12 +29,17 @@ app.use('/users', usersRouter);
 app.get('/products', products.findAll);
 app.get('/products/votes', products.findTotalVotes);
 app.get('/products/:id', products.findOne);
-app.get('/products/:productname', products.findProductSpecs);
-app.get('/productspecs', productspecs.findAll);
+app.get('/products/getByName/:productname/', products.findProductSpecs); // not working
 app.get('/fuzzy/:productname', products.findFuzzy);
+
+app.get('/productspecs', productspecs.findAll);
+
+app.get('/users', usersproducts.findAll);
 
 app.post('/products',products.addProduct);
 app.post('/productspecsadd',productspecs.addSpecs);
+app.post('/useradd', usersproducts.addUsers);
+
 
 app.put('/products/:id/vote', products.incrementUpvotes);
 

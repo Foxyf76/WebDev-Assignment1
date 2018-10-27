@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5bcf836de7179a437701952a",
+    "productname": "LG V30",
+    "cameraquality": 13,
+    "ram": 4,
+    "processor": "SnapDragon",
+    "screensize": 5.5,
+    "batterysize": 3100
+  },
+  {
+    "_id": "5bd05703d9dee6148ce0a616",
+    "productname": "LG V30",
+    "cameraquality": 13,
+    "ram": 4,
+    "processor": "SnapDragon",
+    "screensize": 5.5,
+    "batterysize": 3100
+  }
+]

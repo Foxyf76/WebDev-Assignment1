@@ -1,0 +1,13 @@
+{
+  "message": "Product Successfully Added!",
+  "data": {
+    "upvotes": 3,
+    "specs": [],
+    "_id": "5bd05703d9dee6148ce0a616",
+    "productname": "SamsungS9",
+    "producttype": "phone",
+    "price": 900,
+    "rating": 4,
+    "__v": 0
+  }
+}

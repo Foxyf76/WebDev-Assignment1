@@ -1,0 +1,11 @@
+{
+  "message": "Product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bbddc7bc831750b54b337bb",
+    "producttype": "tablet",
+    "price": 600,
+    "rating": 4,
+    "__v": 0
+  }
+}

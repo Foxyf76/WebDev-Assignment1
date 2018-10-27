@@ -1,122 +1,178 @@
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T104824.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T104728-1.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T014505.200.json
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T104728.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T014428.200.json
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T104727.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T104726.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103919.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/producs/LGV30
+GET http://localhost:3000/fuzzy/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103915.404.html
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/product/LGV30
+GET http://localhost:3000/fuzzy/LG30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/producs/LGV30
+GET http://localhost:3000/products/getByName/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103907.404.html
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/product/LGV30
+GET http://localhost:3000/products/getByName/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/product/getByName/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103408.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/product/getByName/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103345-1.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/products/getByName/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103345.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T011134.404.html
 
 ###
 
-GET http://localhost:3000/products/LGV30
+GET http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103032.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T011119.200.json
+
+###
+
+GET http://localhost:3000/productsspecs/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T011033.404.html
+
+###
+
+GET http://localhost:3000/products/getByName/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010837.404.html
+
+###
+
+GET http://localhost:3000/products/findProductSpecs/LGV30
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010704.404.html
+
+###
+
+GET http://localhost:3000/products/waa
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010505.200.json
 
 ###
 
@@ -125,61 +181,223 @@ Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T103022.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010336.200.json
 
 ###
 
-GET http://localhost:3000/products/5bc0feece7179a4377f7f5ad
+GET http://localhost:3000/products/
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T102754.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010327.200.json
 
 ###
 
-GET http://localhost:3000/products/lg
+GET http://localhost:3000/products/productname
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-10-23T102740.200.json
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010322.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/products/
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010315.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/products/LGV30
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T010044.200.json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/users
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T124552.200.html
 
 ###
 
-GET http://localhost:3000/fuzzy
+POST  http://localhost:3000/useradd
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"productname": "Samsung"}
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T124530.404.html
+
+###
+
+POST  http://localhost:3000/useradd/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T124524.404.html
+
+###
+
+POST  http://localhost:3000/useradd/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T124523.404.html
+
+###
+
+POST  http://localhost:3000/useradd
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "Fox",   "email": "fox@gmail.com",   "password": "foxpassword" }
+
+<> 2018-10-26T124020.404.html
+
+###
+
+GET http://localhost:3000/users
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+###
+
+GET http://localhost:3000/users
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-26T113417.200.html
+
+###
+
+GET http://localhost:3000/fuzzy/lg
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+###
+
+GET http://localhost:3000/fuzzy/lg
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+###
+
+GET http://localhost:3000/productspecs
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T125353.200.json
+
+###
+
+GET http://localhost:3000/productspecs
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T125118.500.json
+
+###
+
+GET http://localhost:3000/productspecs
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T125009.500.json
+
+###
+
+POST http://localhost:3000/productspecsadd
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T124828.200.json
+
+###
+
+POST http://localhost:3000/productspecsadd
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T124625.200.json
+
+###
+
+POST http://localhost:3000/productspecsadd
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "TESTTTT",   "cameraquality": 13,   "ram": 4,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3100 }
+
+<> 2018-10-24T124459.404.html
+
+###
+
+POST http://localhost:3000/products
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "productname": "SamsungS9",   "producttype": "phone",   "price": 900,   "rating": 4,   "upvotes": 3 }
+
+<> 2018-10-24T122659.200.json
 
 ###
 
@@ -199,9 +417,11 @@ Content-Type: application/json
 
 {"productname": "Samsung"}
 
+<> 2018-10-24T115826.404.html
+
 ###
 
-GET http://localhost:3000/fuzzy/
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -210,7 +430,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy/
+GET http://localhost:3000/products
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -219,7 +439,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy/
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -228,7 +448,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -237,7 +457,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -246,7 +466,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -255,7 +475,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -264,7 +484,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
@@ -273,198 +493,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/fuzzy
+GET http://localhost:3000/fuzzy/lg
 Accept: application/json
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T032334.200.json
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T032324.200.json
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T032323.200.json
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T032321.200.json
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T023339.404.html
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T023337.404.html
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T023047.404.html
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T023046.404.html
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T022605.404.html
-
-###
-
-GET http://localhost:3000/products/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T022536.200.json
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T022452.404.html
-
-###
-
-GET http://localhost:3000/fuzzy
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"productname": "Samsung"}
-
-<> 2018-10-21T022451.404.html
 
 ###
 

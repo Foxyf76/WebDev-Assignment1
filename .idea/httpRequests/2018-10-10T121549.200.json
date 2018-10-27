@@ -1,0 +1,11 @@
+{
+  "message": "Product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bbddf64c831750b54b337bc",
+    "producttype": "laptop",
+    "price": 700,
+    "rating": 4,
+    "__v": 0
+  }
+}

@@ -1,4 +1,4 @@
-let ProductSpecs = require('../models/product_specs');
+let UsersProducts = require('../models/users_products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -20,37 +20,34 @@ router.findAll = (req, res) => {
     // Return a JSON representation of our list
     res.setHeader('Content-Type', 'application/json');
 
-    ProductSpecs.find(function (err, specs) {
+    UsersProducts.find(function (err, user_products) {
         if (err)
             res.send(err);
 
-        res.send(JSON.stringify(specs, null, 5));
+        res.send(JSON.stringify(user_products, null, 5));
     });
 };
 
-router.addSpecs = (req, res) => {
+router.addUsers = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
 
-    let product = new ProductSpecs();
+    let user = new UsersProducts();
 
-    product.productname = req.body.productname;
-    product.cameraquality = req.params.productname;
-    product.ram = req.params.ram;
-    product.processor = req.params.processor;
-    product.screensize = req.params.screensize;
-    product.batterysize = req.params.batterysize;
+    user.username = req.body.username;
+    user.email = req.params.email;
+    user.password = req.params.password;
 
-    product.save(function (err) {
+    user.save(function (err) {
         if (err) {
             res.send("Cannot find! " + err)
         }
         // return a suitable error message
         else {
-            res.json({message: 'Product Successfully Added!', data: product});
+            res.json({message: 'User Successfully Added!', data: user});
         }
         // return a suitable success message
     });
-}
+};
 
 module.exports = router;

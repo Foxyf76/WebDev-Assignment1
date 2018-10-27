@@ -1,0 +1,34 @@
+[
+  {
+    "upvotes": 2,
+    "_id": "5bb4bef98847d78fdb02051b",
+    "id": 1,
+    "productType": "Phone",
+    "price": 500,
+    "rating": 4
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bbddc7bc831750b54b337bb",
+    "producttype": "tablet",
+    "price": 600,
+    "rating": 4,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bbddf64c831750b54b337bc",
+    "producttype": "laptop",
+    "price": 700,
+    "rating": 4,
+    "__v": 0
+  },
+  {
+    "upvotes": 3,
+    "_id": "5bbddf7f9de7582040ddc3a5",
+    "producttype": "laptop",
+    "price": 700,
+    "rating": 4,
+    "__v": 0
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "message": "Product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "specs": [],
+    "_id": "5bd05c0c88cd57093812e53f",
+    "productname": "TESTTTT",
+    "__v": 0
+  }
+}
