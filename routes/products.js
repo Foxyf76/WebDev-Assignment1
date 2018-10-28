@@ -30,7 +30,6 @@ router.findAll = (req, res) => {
 };
 
 router.findOne = (req, res) => {
-
     res.setHeader('Content-Type', 'application/json');
     Product.find({"_id": req.params.id}, function (err, product) {
         if (err) {
@@ -45,7 +44,6 @@ router.findOne = (req, res) => {
 };
 
 router.addProduct = (req, res) => {
-
     res.setHeader('Content-Type', 'application/json');
 
     let product = new Product();
@@ -94,7 +92,6 @@ router.addSpecs = (req, res) => {
 
 
 router.incrementUpvotes = (req, res) => {
-
     var product = getByValue(products, req.params.id);
 
     if (product != null) {

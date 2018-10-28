@@ -1,9 +1,8 @@
 let UserAccounts = require('../models/user_accounts');
-let Products = require('../models/products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
-let bcrypt = require('bcrypt'); // used for encrypting passwords
+// let bcrypt = require('bcrypt'); <----- Caused bug with deployment so had to be removed
 var mongodbUri = 'mongodb://Foxyf76:vzT8F2xNvtmL359@ds131373.mlab.com:31373/productsdb';
 
 mongoose.connect(mongodbUri);
@@ -36,7 +35,8 @@ router.addUser = (req, res) => {
 
     user.username = req.body.username;
     user.email = req.body.email;
-    user.password = encryptPassword(req.body.password);
+   // user.password = encryptPassword(req.body.password);
+    user.password = req.body.password;
 
 
     user.save(function (err) {
@@ -71,9 +71,9 @@ router.deleteUser = (req, res) => {
     });
 };
 
-function encryptPassword(password) {
-    var hashPass = bcrypt.hashSync(password, 10); //needs to be expanded in next assignment, only returns hash password here
-    return hashPass
-}
+// function encryptPassword(password) { <----- Had to remove bcrypt, see above
+//     var hashPass = bcrypt.hashSync(password, 10); //needs to be expanded in next assignment, only returns hash password here
+//     return hashPass
+// }
 
 module.exports = router;
