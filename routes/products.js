@@ -139,6 +139,22 @@ router.incrementUpvotes = (req, res) => {
     });
 };
 
+router.downvote = (req, res) => {
+    Product.findById(req.params.id, function (err, product) {
+        if (err)
+            res.json({message: 'Product NOT Found!', errmsg: err});
+        else {
+            product.upvotes -= 1;
+            product.save(function (err) {
+                if (err)
+                    res.json({message: 'Product NOT downvoted!', errmsg: err});
+                else
+                    res.json({message: 'Product Successfully downvotes!', data: product});
+            });
+        }
+    });
+};
+
 router.deleteProduct = (req, res) => {
     Product.findByIdAndRemove(req.params.id, function (err) {
         if (err)

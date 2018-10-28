@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+///''''GET''''///
 app.get('/products', products.findAll);
 app.get('/products/votes', products.findTotalVotes);
 app.get('/products/:id', products.findOne);
@@ -32,17 +33,19 @@ app.get('/products/getByName/:productname', products.findProductByName); // not 
 app.get('/fuzzy/:productname', products.findFuzzyName);
 app.get('/useraccounts', useraccounts.findAll);
 
-
+///''''POST''''///
 app.post('/products',products.addProduct);
 app.post('/products/:id/addSpecs',products.addSpecs);
 app.post('/useraccounts/addUser', useraccounts.addUser);
 
+///''''PUT''''///
 app.put('/products/:id/vote', products.incrementUpvotes);
+app.put('/products/:id/downvote', products.downvote);
 app.put('/useraccounts/:username/', useraccounts.changeUsername);
 
+///''''DELETE''''///
 app.delete('/products/delete/:id', products.deleteProduct);
 app.delete('/useraccounts/delete/:id', useraccounts.deleteUser);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
