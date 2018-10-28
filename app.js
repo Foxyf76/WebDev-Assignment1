@@ -39,9 +39,10 @@ app.post('/useraccounts/addUser', useraccounts.addUser);
 
 app.put('/products/:id/vote', products.incrementUpvotes);
 app.put('/useraccounts/:username/', useraccounts.changeUsername);
+app.put('/useraccounts/addProduct/:id', useraccounts.addProductToUser);
 
-app.delete('/products/:id', products.deleteProduct);
-
+app.delete('/products/delete/:id', products.deleteProduct);
+app.delete('/useraccounts/delete/:id', useraccounts.deleteUser);
 
 
 // catch 404 and forward to error handler

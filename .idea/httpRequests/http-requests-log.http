@@ -1,3 +1,146 @@
+PUT http://localhost:3000/useraccounts/addProduct/5bd4b5e6e7179a1b53fe7c37
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username": "TESTT",   "email": "claremoran@gmail.com",   "password": "$2b$10$C2M5O3aehAQv.gg9/dqgsuvcPiEOVb83/D.7H6tG87SFRr04owiMO" }
+
+<> 2018-10-28T013226.500.html
+
+###
+
+PUT http://localhost:3000/useraccounts/addProduct/5bd4b5e6e7179a1b53fe7c37
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username": "TESTT",   "email": "claremoran@gmail.com",   "password": "$2b$10$C2M5O3aehAQv.gg9/dqgsuvcPiEOVb83/D.7H6tG87SFRr04owiMO" }
+
+<> 2018-10-28T013050.500.html
+
+###
+
+PUT http://localhost:3000/useraccounts/addProduct/5bd4b5e6e7179a1b53fe7c37
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username": "TESTT",   "email": "claremoran@gmail.com",   "password": "$2b$10$C2M5O3aehAQv.gg9/dqgsuvcPiEOVb83/D.7H6tG87SFRr04owiMO" }
+
+<> 2018-10-28T013033.500.html
+
+###
+
+PUT http://localhost:3000/useraccounts/addProduct/5bd4b5e6e7179a1b53fe7c37
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username": "TESTT",   "email": "claremoran@gmail.com",   "password": "$2b$10$C2M5O3aehAQv.gg9/dqgsuvcPiEOVb83/D.7H6tG87SFRr04owiMO" }
+
+<> 2018-10-28T012830.500.html
+
+###
+
+PUT http://localhost:3000/useraccounts/addProduct/5bd4b5e6e7179a1b53fe7c37
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username": "TESTT",   "email": "claremoran@gmail.com",   "password": "$2b$10$C2M5O3aehAQv.gg9/dqgsuvcPiEOVb83/D.7H6tG87SFRr04owiMO" }
+
+<> 2018-10-28T012759.500.html
+
+###
+
+GET http://localhost:3000/products
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T012557.200.json
+
+###
+
+GET http://localhost:3000/useraccounts
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T125653.200.json
+
+###
+
+GET http://localhost:3000/useraccounts
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T094248.200.json
+
+###
+
+DELETE http://localhost:3000/useraccounts/delete/5bd4549fe7179a1b53fe6426
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T094235.200.json
+
+###
+
+GET http://localhost:3000/useraccounts/delete/5bd4549fe7179a1b53fe6426
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T094229.404.html
+
+###
+
+GET http://localhost:3000/useraccounts/5bd4549fe7179a1b53fe6426
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T094056.404.html
+
+###
+
+GET http://localhost:3000/useraccounts/delete/5bd4549fe7179a1b53fe6426
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T094021.404.html
+
+###
+
+GET http://localhost:3000/useraccounts
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "newname": "Foxy" }
+
+<> 2018-10-28T093943.200.json
+
+###
+
 PUT http://localhost:3000/useraccounts/Fox/
 Accept: application/json
 Cache-Control: no-cache
@@ -386,149 +529,6 @@ Content-Type: application/json
 {   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
 
 <> 2018-10-27T081149.200.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080808.200.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080721.200.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080535.500.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080448.500.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080432.500.html
-
-###
-
-POST http://localhost:3000/products/5bd4b5e6e7179a1b53fe7c37/addSpecs
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "cameraquality": 16,   "ram": 6,   "processor": "SnapDragon",   "screensize": 5.5,   "batterysize": 3200 }
-
-<> 2018-10-27T080401.500.html
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T074419.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072854.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072818.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072752.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072730.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072715.200.json
-
-###
-
-POST http://localhost:3000/products
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "productname": "LGV30",   "producttype": "phone",   "price": 1000,   "rating": 5,   "upvotes": 3 }
-
-<> 2018-10-27T072652.200.json
 
 ###
 

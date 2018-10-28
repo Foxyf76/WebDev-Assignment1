@@ -66,11 +66,11 @@ router.addProduct = (req, res) => {
         }
         // return a suitable success message
     });
-}
+};
 
 router.addSpecs = (req, res) => {
     Product.findByIdAndUpdate(req.params.id, {
-            $push: {
+            $push: { // if the product ID is found, push the following into the 'specs' array
                 specs: {
                     cameraquality: req.body.cameraquality,
                     ram: req.body.ram,
@@ -111,12 +111,15 @@ router.findFuzzyName = (req, res) => {
         if (err)
             res.send(err);
         var options = {
-            keys: ['productname'],
+            keys: ['productname'], // search by 'productname' only, can be expanded to multiple keys
         };
         var fuse = new fuzzy(products, options);
         var result = fuse.search(req.params.productname);
-        res.send(result)
-
+        if (result != null) {
+            res.send(result)
+        }
+        else
+            res.send('No product found!');
     })
 };
 
@@ -143,7 +146,7 @@ router.deleteProduct = (req, res) => {
         else
             res.json({message: 'Product Successfully Deleted!'});
     });
-}
+};
 
 router.findTotalVotes = (req, res) => {
     Product.find(function (err, products) {
@@ -177,6 +180,5 @@ function getTotalVotes(array) {
     });
     return totalVotes;
 }
-
 
 module.exports = router;

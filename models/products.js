@@ -1,10 +1,10 @@
 let mongoose = require('mongoose');
 
 let ProductSchema = new mongoose.Schema({
-        productname: String,
-        producttype: String,
-        price: Number,
-        rating: Number,
+        productname: {type: String, required: true},
+        producttype: {type: String, required: true},
+        price: {type: Number, required: true},
+        rating: {type: Number, required: true},
         upvotes: {type: Number, default: 0},
         specs: [
             {
@@ -13,7 +13,7 @@ let ProductSchema = new mongoose.Schema({
                 processor: {type: String, default: "none"},
                 screensize: {type: Number, default: 0},
                 batterysize: {type: Number, default: 0},
-                _id: { _id : false },
+                _id: { _id : false }, // keep the ID of the product rather than make a new one
             }
         ]
 

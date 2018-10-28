@@ -1,4 +1,5 @@
 let UserAccounts = require('../models/user_accounts');
+let Products = require('../models/products');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -37,6 +38,7 @@ router.addUser = (req, res) => {
     user.email = req.body.email;
     user.password = encryptPassword(req.body.password);
 
+
     user.save(function (err) {
         if (err) {
             res.send("Cannot find! " + err)
@@ -46,13 +48,13 @@ router.addUser = (req, res) => {
             res.json({message: 'User Successfully Added!', data: user});
         }
         // return a suitable success message
-    });
+    })
 };
 
 router.changeUsername = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
-    UserAccounts.findOneAndUpdate({username: req.params.username}, {$set:{username: req.body.newname}}, {new: true}, (err, user) => {
+    // if username is found, change to req.body > needs to be implemented with authentication in assignment 2
+    UserAccounts.findOneAndUpdate({username: req.params.username}, {$set: {username: req.body.newname}}, {new: true}, (err, user) => {
         if (err)
             res.send(err);
         console.log(user);
@@ -60,10 +62,17 @@ router.changeUsername = (req, res) => {
     });
 };
 
-
+router.deleteUser = (req, res) => {
+    UserAccounts.findByIdAndRemove(req.params.id, function (err) {
+        if (err)
+            res.json({message: 'User NOT DELETED!', errmsg: err});
+        else
+            res.json({message: 'User Successfully Deleted!'});
+    });
+};
 
 function encryptPassword(password) {
-    var hashPass = bcrypt.hashSync(password, 10);
+    var hashPass = bcrypt.hashSync(password, 10); //needs to be expanded in next assignment, only returns hash password here
     return hashPass
 }
 
