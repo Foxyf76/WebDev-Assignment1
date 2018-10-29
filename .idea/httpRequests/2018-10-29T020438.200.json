@@ -1,0 +1,20 @@
+[
+  {
+    "upvotes": 1,
+    "_id": "5bd669a5d596f24ccc6ee45b",
+    "specs": [
+      {
+        "cameraquality": 16,
+        "ram": 6,
+        "processor": "SnapDragon",
+        "screensize": 5.5,
+        "batterysize": 3200
+      }
+    ],
+    "productname": "SAMSUNGS9",
+    "producttype": "phone",
+    "price": 900,
+    "rating": 4,
+    "__v": 0
+  }
+]

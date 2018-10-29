@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "5bd667714d3adc3058f0a326",
+    "username": null,
+    "email": "lukefox@gmail.com",
+    "password": "testpass",
+    "__v": 0
+  },
+  {
+    "_id": "5bd668dfd596f24ccc6ee459",
+    "username": "LukeFXY",
+    "email": "lukefox@gmail.com",
+    "password": "testpass",
+    "__v": 0
+  }
+]

@@ -54,7 +54,7 @@ router.addUser = (req, res) => {
 router.changeUsername = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     // if username is found, change to req.body > needs to be implemented with authentication in assignment 2
-    UserAccounts.findOneAndUpdate({username: req.params.username}, {$set: {username: req.body.newname}}, {new: true}, (err, user) => {
+    UserAccounts.findOneAndUpdate({username: req.params.username}, {$set: {username: req.body.username}}, {new: true}, (err, user) => {
         if (err)
             res.send(err);
         console.log(user);

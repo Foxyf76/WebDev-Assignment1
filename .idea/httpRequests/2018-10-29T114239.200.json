@@ -1,0 +1,10 @@
+{
+  "message": "User Successfully Added!",
+  "data": {
+    "_id": "5bd6f22f59a9b907fce5f9fe",
+    "username": "LukeFXY",
+    "email": "lukefox@gmail.com",
+    "password": "testpass",
+    "__v": 0
+  }
+}
