@@ -45,7 +45,9 @@ app.post('/useraccounts/addUser', useraccounts.addUser);
 ///''''PUT''''///
 app.put('/products/:id/vote', products.incrementUpvotes);
 app.put('/products/:id/downvote', products.downvote);
+app.put('/products/:id/edit', products.editProduct);
 app.put('/useraccounts/:username/', useraccounts.changeUsername);
+
 
 ///''''DELETE''''///
 app.delete('/products/delete/:id', products.deleteProduct);

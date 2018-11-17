@@ -66,6 +66,32 @@ router.addProduct = (req, res) => {
     });
 };
 
+router.editProduct = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+
+    Product.findByIdAndUpdate(req.params.id, {
+            $set: {
+                    productname: req.body.productname,
+                    producttype: req.body.producttype,
+                    price: req.body.price,
+                    rating: req.body.rating,
+                    upvotes: req.body.upvotes,
+                    spec: req.body.specs
+                }
+        },
+
+        function (err, products) {
+            if (err) {
+                throw err;
+            }
+            else {
+                res.send(products)
+            }
+        }
+    )
+};
+
+
 router.addSpecs = (req, res) => {
     Product.findByIdAndUpdate(req.params.id, {
             $push: { // if the product ID is found, push the following into the 'specs' array
